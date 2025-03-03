@@ -1,0 +1,28 @@
+# Ignore Python cache & virtual environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+.ENV/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset files (optional)
+*.csv
+*.xlsx
+*.json
+*.db
+
+# Ignore logs and system files
+logs/
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore Power BI & Tableau temp files
+*.pbix-journal
+*.twbx-journal
